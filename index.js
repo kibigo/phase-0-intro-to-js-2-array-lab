@@ -17,6 +17,7 @@ function appendCat(name){
     const newarray = [...cats,name]
     return newarray
 }
+
 function prependCat(name){
     const newarrayy =[name,...cats]
     return newarrayy
